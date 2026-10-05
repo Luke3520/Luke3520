@@ -1,16 +1,29 @@
-## Hi there 👋
+## Hi, I’m Lucas 👋
 
-<!--
-**Luke3520/Luke3520** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m a developer in Copenhagen, studying Software Development and running my own consultancy. I build backend systems and integrations, then deploy and run them myself.
 
-Here are some ideas to get you started:
+I like understanding why systems behave the way they do.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected work
+
+### BikeRentalOps
+Bike rental operations for hotel and hostel staff: inventory, contracts, guest signatures, and returns. In pilot at a Copenhagen hotel, running on a Linux server I operate.
+
+Spring Boot · React / TypeScript · MySQL · Docker · nginx · GitHub Actions  
+*Private source.*
+
+### [AIS Pipeline](https://github.com/Luke3520/ais-pipeline)
+Turning public vessel broadcasts into traceable port-call timelines. Built around idempotent ingestion, explicit data-quality rules, and records that point back to their source.
+
+C# / .NET · SQLite / PostgreSQL · REST · GraphQL
+
+### Shift Happens
+A team-built shift scheduling and leave management system, explored through database design, testing, and distributed architecture. The microservices work is in progress: architecture, API and event contracts, and service skeletons.
+
+[Database project](https://github.com/Luke3520/shift_happens) · [Testing & CI](https://github.com/shift-left-happens/shift_quality_happens) · [Microservices](https://github.com/microservices-happens/shift-happens)
+
+## Engineering focus
+
+- **Backend & integration** — Java, Spring Boot, REST, GraphQL, and SQL.
+- **Delivery & operations** — Linux, Docker, GitHub Actions, and nginx.
+- **Currently exploring** — service boundaries, asynchronous messaging, and Kubernetes.
