@@ -31,7 +31,7 @@ jobs:
           brand: LUCAS-TV
           subtitle: Developer in Copenhagen|Backend, integrations & ops
           accent: red
-          art: nisse
+          art: pipe-nisse
           timezone: Europe/Copenhagen
           # Named first, in this order. -name hides one; the rest follow.
           orgs: bikerental=BikeRental, Betalingsblik, DevOpsDynamite, microservices-happens=Microservices, shift-left-happens
