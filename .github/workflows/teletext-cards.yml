@@ -1,0 +1,31 @@
+# Redraws the Tekst-TV page at the top of the README and pushes it to the
+# output branch. https://github.com/Luke3520/teletext-cards
+name: Teletext cards
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # every morning, before Copenhagen is up
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/teletext-cards.yml]
+
+permissions:
+  contents: write # push the cards to the output branch
+
+concurrency:
+  group: teletext-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Luke3520/teletext-cards@main
+        with:
+          publish_branch: output
+          cards: page
+          brand: LUCAS-TV
+          subtitle: Developer in Copenhagen|Backend, integrations & ops
+          accent: red
+          art: nisse
+          timezone: Europe/Copenhagen

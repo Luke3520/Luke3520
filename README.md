@@ -1,33 +1,27 @@
-# Hi, I'm Lucas <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="28" alt="Waving hello" />
+<a href="https://github.com/Luke3520/teletext-cards">
+  <img src="https://raw.githubusercontent.com/Luke3520/Luke3520/output/page.svg" width="100%"
+       alt="Lucas Chantelou's GitHub activity as a Danish teletext page: contributions, pull requests, organisations and languages, redrawn every morning">
+</a>
 
-I'm Danish, so naturally I like coding, nisser and hygge 🇩🇰
-
-Studying for a bachelor's in Software Development in Copenhagen.
-
-<a href="https://giphy.com/gifs/H1dxi6xdh4NGQCZSvz"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJycnMxaGVoMHphMzZscW9teXB6d3ozd2cxNmJ2Y2Z2bWtuN29rbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H1dxi6xdh4NGQCZSvz/giphy.gif" height="124" alt="Cat GIF" /></a>
-<a href="https://giphy.com/gifs/pizzilevos-dancing-gnome-brakedancing-9BpchO8pBjaNihrc5T"><img src="https://media1.giphy.com/media/9BpchO8pBjaNihrc5T/giphy.gif" height="124" alt="A dancing nisse (gnome/elf)" /></a>
-<a href="https://giphy.com/gifs/ZVuJnm4oSJvmU"><img src="https://media1.giphy.com/media/ZVuJnm4oSJvmU/giphy.gif" height="124" alt="GIF via GIPHY" /></a>
+I'm Danish, so naturally I like coding, nisser and hygge 🇩🇰  
+I'm studying for a bachelor's in Software Development in Copenhagen. I build backend systems and integrations, then deploy and run them myself.
 
 ## Projects
 
-- **BikeRentalOps** — bike rental operations for hotel and hostel staff: inventory, contracts, guest signatures and returns. In pilot at a Copenhagen hotel, running on a Linux server I operate. Built with Spring Boot, React / TypeScript and MySQL. *Private source.*
-- [AIS Pipeline](https://github.com/Luke3520/ais-pipeline) — turns public vessel broadcasts into traceable port-call timelines, with idempotent ingestion, explicit data-quality rules and records that point back to their source. C# / .NET, SQLite / PostgreSQL, REST and GraphQL.
-- **Shift Happens** — a team-built shift scheduling and leave management system, explored through [database design](https://github.com/Luke3520/shift_happens), [testing & CI](https://github.com/shift-left-happens/shift_quality_happens) and [microservices](https://github.com/microservices-happens/shift-happens). The microservices work is in progress: architecture, API and event contracts, and service skeletons.
+**[AIS Pipeline](https://github.com/Luke3520/ais-pipeline)** · C# / .NET · PostgreSQL · GraphQL  
+Turns public vessel broadcasts into traceable port-call timelines: idempotent ingestion, explicit data-quality rules, and every record points back to the broadcast it came from.
 
-## Setup
+**BikeRentalOps** · Spring Boot · React / TypeScript · MySQL · *private source*  
+Rental operations for hotel and hostel staff: inventory, contracts, guest signatures and returns. In pilot at a Copenhagen hotel, running on a Linux server I operate.
 
-I deploy and run my own projects on Linux, using Docker, nginx and GitHub Actions. Currently exploring service boundaries, asynchronous messaging and Kubernetes.
+**Shift Happens** · team project · Java  
+Shift scheduling and leave management, explored through [database design](https://github.com/Luke3520/shift_happens), [testing & CI](https://github.com/shift-left-happens/shift_quality_happens) and [microservices](https://github.com/microservices-happens/shift-happens). The microservices part is still in progress.
 
-## Tech
+**[teletext-cards](https://github.com/Luke3520/teletext-cards)** · TypeScript  
+The page above: GitHub stats that count org and team work, not just the repos you own, drawn as Tekst-TV. Free to use on your own profile.
 
-Java · Spring Boot · C# / .NET · React / TypeScript · SQL · REST · GraphQL
+## How I work
 
----
+I run what I build on Linux, with Docker, nginx and GitHub Actions. Currently exploring service boundaries, asynchronous messaging and Kubernetes.
 
-![Profile views](https://komarev.com/ghpvc/?username=Luke3520&style=flat&color=blue) [![GitHub stars](https://ghstats.dev/api/mini?username=Luke3520&metric=stars&style=flat&color=blue)](https://github.com/Luke3520?tab=repositories)
-
-## GitHub Stats
-
-![GitHub Stats Card](https://ghstats.dev/api/card?username=Luke3520&theme=nightowl&show_ring=false&size=compact&hide=repos%2Ccommits%2Cstreak%2Cweek%2Ctrend%2Cavg%2Cactive_day%2Cgrade)
-
-![Top Languages](https://ghstats.dev/api/langs?username=Luke3520&theme=nightowl)
+`Java` `Spring Boot` `C# / .NET` `React` `TypeScript` `SQL` `REST` `GraphQL`
