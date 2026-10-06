@@ -29,7 +29,7 @@ jobs:
           publish_branch: output
           cards: page
           brand: LUCAS-TV
-          subtitle: Backend developer|I build it, ship it, run it
+          subtitle: Backend developer|Runs on coffee and gifflar!
           accent: red
           art: pipe-nisse
           timezone: Europe/Copenhagen
