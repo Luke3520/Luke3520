@@ -34,4 +34,4 @@ jobs:
           art: nisse
           timezone: Europe/Copenhagen
           # Named first, in this order. -name hides one; the rest follow.
-          orgs: bikerental=BikeRental, Betalingsblik, DevOpsDynamite, microservices-happens=Microservices, shift-left-happens, -exam-project-luke
+          orgs: bikerental=BikeRental, Betalingsblik, DevOpsDynamite, microservices-happens=Microservices, shift-left-happens
