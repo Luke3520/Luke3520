@@ -1,27 +1,21 @@
 <a href="https://github.com/Luke3520/teletext-cards">
   <img src="https://raw.githubusercontent.com/Luke3520/Luke3520/output/page.svg" width="100%"
-       alt="Lucas Chantelou's GitHub activity as a Danish teletext page: contributions, pull requests, organisations and languages, redrawn every morning">
+       alt="Lucas Chantelou's GitHub activity as a Danish teletext page: contributions, streak, organisations, languages and recent work, redrawn every morning">
 </a>
 
 I'm Danish, so naturally I like coding, nisser and hygge 🇩🇰  
-I'm studying for a bachelor's in Software Development in Copenhagen. I build backend systems and integrations, then deploy and run them myself.
-
-## Projects
+I'm studying for a bachelor's in Software Development. I build backend systems, then deploy and run them myself on Linux with Docker, nginx and GitHub Actions.
 
 **[AIS Pipeline](https://github.com/Luke3520/ais-pipeline)** · C# / .NET · PostgreSQL · GraphQL  
-Turns public vessel broadcasts into traceable port-call timelines: idempotent ingestion, explicit data-quality rules, and every record points back to the broadcast it came from.
+Turns public ship broadcasts into port-call timelines, with every record traceable to the broadcast it came from.
 
-**BikeRentalOps** · Spring Boot · React / TypeScript · MySQL · *private source*  
-Rental operations for hotel and hostel staff: inventory, contracts, guest signatures and returns. In pilot at a Copenhagen hotel, running on a Linux server I operate.
+**BikeRentalOps** · Spring Boot · React · MySQL · *private source*  
+Bike rental for hotel and hostel staff. In pilot at a Copenhagen hotel, on a server I run.
 
-**Shift Happens** · team project · Java  
-Shift scheduling and leave management, explored through [database design](https://github.com/Luke3520/shift_happens), [testing & CI](https://github.com/shift-left-happens/shift_quality_happens) and [microservices](https://github.com/microservices-happens/shift-happens). The microservices part is still in progress.
+**Shift Happens** · Java · team project  
+Shift planning, explored three ways: [database design](https://github.com/Luke3520/shift_happens), [testing & CI](https://github.com/shift-left-happens/shift_quality_happens) and [microservices](https://github.com/microservices-happens/shift-happens) (in progress).
 
 **[teletext-cards](https://github.com/Luke3520/teletext-cards)** · TypeScript  
-The page above: GitHub stats that count org and team work, not just the repos you own, drawn as Tekst-TV. Free to use on your own profile.
+The page above: GitHub stats that count org and team work too. Free to use.
 
-## How I work
-
-I run what I build on Linux, with Docker, nginx and GitHub Actions. Currently exploring service boundaries, asynchronous messaging and Kubernetes.
-
-`Java` `Spring Boot` `C# / .NET` `React` `TypeScript` `SQL` `REST` `GraphQL`
+Currently exploring service boundaries, asynchronous messaging and Kubernetes.
