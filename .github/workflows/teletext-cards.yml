@@ -20,7 +20,7 @@ jobs:
   cards:
     runs-on: ubuntu-latest
     steps:
-      - uses: Luke3520/teletext-cards@main
+      - uses: Luke3520/teletext-cards@v1
         with:
           # Classic token (repo, read:org) so private repos count too. They are
           # counted, never named. Falls back to public work if the secret is gone.
